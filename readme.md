@@ -40,6 +40,10 @@ git remote add origin <remote address> (for the first time)
 git remote
 git remote -v
 git push -u origin <branch name> (for the first time)
+###########
+merge two unrelated branches:
+git pull origin main --allow-unrelated-histories
+###########
 git push <branch name>
 git push
 
